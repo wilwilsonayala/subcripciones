@@ -44,7 +44,7 @@ const FormAddSubs = ({
         price: price,
         id: Date.now(),
       };
-      setSubs([...subs, data]);
+      setSubs([data, ...subs]);
     }
 
     setType("");
